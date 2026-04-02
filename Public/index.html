@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini CRM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <h2>Mini CRM</h2>
+  <button onclick="toggleTheme()">🌙</button>
+</div>
+
+<div class="container">
+
+  <form id="leadForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="phone" placeholder="Phone">
+    <textarea id="message" placeholder="Message"></textarea>
+    <button type="submit">Add Lead</button>
+  </form>
+
+  <h3>Leads</h3>
+  <div id="leadsList"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+:root {
+  --bg: #ffffff;
+  --text: #000;
+  --card: #f1f1f1;
+  --primary: #007bff;
+}
+
+body.dark {
+  --bg: #0f172a;
+  --text: #fff;
+  --card: #1e293b;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial;
+  margin: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: var(--primary);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+form input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#leadsList {
+  margin-top: 20px;
+}
+
+.lead-card {
+  background: var(--card);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
